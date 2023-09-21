@@ -10,7 +10,7 @@ import './index.css'
 
 class PlanetSlider extends Component {
   render() {
-    const {count} = this.state
+    
     const {planetsList} = this.props
     const settings = {
       dots: true,
